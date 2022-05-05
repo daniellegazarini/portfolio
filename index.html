@@ -2,7 +2,7 @@
 <html lang="pt-br">
   <head>
     <meta charset="UTF-8">
-    <title>Portfólio Danielle Gazarini</title>
+    <title>Danielle Gazarini</title>
     <style>
       
       h2 {
@@ -27,11 +27,23 @@
       #atualizado {
         color:rgb(240, 128, 128);
       } 
+      #image {
+        text-align: center;
+      }
 
       .estilolista {
         background-color: rgb(251, 196, 171);
         color:rgb(109, 104, 117);
 
+      }
+      
+      .alignment {
+        text-align: center;
+      }
+
+      .alinhamentopagina {
+        margin: auto;
+        max-width: 1000px;
       }
 
 
@@ -43,8 +55,8 @@
 
   </head>
   <body>
-    <div id="interface">
-    <h1>Portfólio - <a href="#foto">Danielle Gazarini</a></h1>
+    <div class="alinhamentopagina">
+    <h1 class="alignment"><a href="#foto">Danielle Gazarini</a></h1>
 
     <p>Saiba um pouco mais sobre mim <strong>abaixo</strong> &DownArrow;: </p>
 
@@ -54,12 +66,12 @@
         <li><a href="#Curiosidades">Curiosidades</a></li>
       </ol>
       
-      <h2 id="Quem sou eu">Quem sou eu</h2>
-      <img id="foto" src="https://raw.githubusercontent.com/daniellegazarini/portfolio/main/Imagens/Foto3.png" width="300px" alt="Foto da Danielle, de cabelos curtos, sorrindo">
+      <h2 class="alignment" id="Quem sou eu">Quem sou eu</h2>
+      <div id="image"><img id="foto" src="https://raw.githubusercontent.com/daniellegazarini/portfolio/main/Imagens/Foto3.png" width="300px" alt="Foto da Danielle, de cabelos curtos, sorrindo"></div>
       <p>Olá! Meu nome é Danielle, tenho 33 anos e sou brasileira, nascida e residente em São Paulo-SP. Comecei meus estudos na engenharia civil, passei brevemente pela psicologia
         e hoje estou me aventurando no desenvolvimento web. </p>
 
-      <h2 id="Habilidades">Habilidades</h2>
+      <h2 class="alignment" id="Habilidades">Habilidades</h2>
       <ul class="estilolista">
         <li>Comunicativa</li>
         <li>Criativa</li>
@@ -70,7 +82,7 @@
         <li>CSS básico</li>
       </ul>
        
-      <h2 id="Curiosidades">Curiosidades</h2>
+      <h2 class="alignment" id="Curiosidades">Curiosidades</h2>
       <ul class="estilolista">
         <li>Sou professora particular de Cálculo</li>
         <li>Fui a primeira presidente mulher do <i>Grêmio Politécnico da USP</i></li>
