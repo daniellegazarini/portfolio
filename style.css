@@ -32,6 +32,11 @@ h1 {
   padding:0 30px;
 }
 
+.margin {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
 #foto {
   width:300px;
   text-align: center;
