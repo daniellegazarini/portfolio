@@ -24,9 +24,9 @@ h1 {
   font-size: large;
  }
 
-#atualizado {
+ a:visited {
   color:rgb(240, 128, 128);
-} 
+ }
 
 #estiloindice {
   padding:0 30px;
@@ -54,6 +54,7 @@ h1 {
   padding: 20px;
   height: 280px;;
   flex: 2;
+  text-align: justify;
 }
 
 .estilolista {
@@ -92,6 +93,9 @@ h1 {
 
 }
 
-
+#atualizado {
+  color:rgb(240, 128, 128);
+  text-align: center;
+} 
 
 
