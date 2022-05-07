@@ -1,4 +1,7 @@
-<style>
+* {
+  margin:0;
+  padding:0;
+}
 
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Oleo+Script+Swash+Caps&family=Water+Brush&display=swap');
 
@@ -20,6 +23,9 @@ h1 {
   color:rgb(245, 222, 210);
   font-size: large;
  }
+ ol {
+   
+ }
 
 #atualizado {
   color:rgb(240, 128, 128);
@@ -28,9 +34,20 @@ h1 {
   text-align: center;
 }
 
+.perfil {
+  display:flex;
+}
+
+.bio {
+  display:flex;
+  align-items: center;
+  padding: 20px;
+}
+
 .estilolista {
   background-color: rgb(251, 196, 171);
   color:rgb(109, 104, 117);
+  padding:0 30px;
 
 }
 
@@ -66,4 +83,3 @@ h1 {
 
 
 
-</style>
