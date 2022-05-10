@@ -37,13 +37,27 @@ footer {
   color:rgb(240, 128, 128);
  }
 
-#estiloindice {
-  padding:0 30px;
+.alinhamentopagina {
+  margin: auto;
+  max-width: 1000px;
 }
 
 .margin {
   margin-top: 20px;
   margin-bottom: 20px;
+}
+
+.alignment {
+  text-align: center;
+}
+
+#estiloindice {
+  padding:0 30px;
+}
+
+.perfil {
+  display:flex;
+  
 }
 
 #foto {
@@ -56,18 +70,29 @@ footer {
   
 }
 
-.perfil {
-  display:flex;
-
+#caixatextologos {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  padding: 80px 0px 0px 20px; 
 }
 
 .bio {
-  display:flex;
+  display:block;
   align-items: center;
-  padding: 20px;
-  height: 200px;;
+  height: fit-content;
   flex: 2;
   text-align: justify;
+}
+
+#logos {
+  height: fit-content;
+ }
+
+.logo {
+  height: 40px;
+  width: 40px;
+  
 }
 
 .estilolista {
@@ -77,42 +102,7 @@ footer {
 
 }
 
-.alignment {
-  text-align: center;
-}
-
-.alinhamentopagina {
-  margin: auto;
-  max-width: 1000px;
-}
-
-.tamanho1{
-  font-family:'Water Brush', cursive;
-  font-size: xx-large;
-}
-.tamanho2{
-  font-family: 'Bebas Neue', cursive;
-  font-size: x-large;
-
-}
-.tamanho3{
-  font-family: 'Oleo Script Swash Caps', cursive;
-  font-size: large;
-
-}
-.tamanho4{
-  font-family: "Sofia";
-  font-size: small;
-
-}
-
 #atualizado {
   color:rgb(240, 128, 128);
   text-align: center;
 } 
-
-.logo {
-  height: 40px;
-  width: 40px;
-  
-}
